@@ -26,8 +26,9 @@ Clone this repository.
 
 Create a .env file and add your Gemini API key:
 
+```console
 GEMINI_API_KEY=YOUR_API_KEY_HERE
-
+```
 
 Install the required libraries:
 
