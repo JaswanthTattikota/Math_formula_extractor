@@ -55,12 +55,12 @@ streamlit run app.py
 4. Click "Download LaTeX File" to download the formulas.
 
 
-**License**
+**License:**
 
 MIT License: https://choosealicense.com/licenses/mit/
 
 
-**Additional Notes**
+**Additional Notes:**
 
 1. Requires a Google AI API key for the Gemini-Pro-Vision model.
 2. Use clear images with well-defined formulas for optimal performance.
