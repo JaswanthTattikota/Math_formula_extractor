@@ -2,14 +2,14 @@
 
 This app extracts mathematical formulas from images using the Gemini-Pro-Vision AI model and converts them into LaTeX code.
 
-**Features**
+ ## **Features**
 
 -Upload images containing mathematical formulas (JPEG, PNG, or JPG formats).
 -Extract formulas using AI and display them in both text and LaTeX format.
 -Download the extracted formulas as a LaTeX file for further use.
 
 
-Technologies Used:
+## Technologies Used:
 
 1.Streamlit
 2.google.generativeai
@@ -17,12 +17,12 @@ Technologies Used:
 4.dotenv
 
 
-**Setup**
+## **Setup**
 
 Clone this repository by using the command:
 
 ```console
-git clone
+git clone https://github.com/JaswanthTattikota/Math_formula_extractor.git
 ```
 
 Create a .env file and add your Gemini API key:
