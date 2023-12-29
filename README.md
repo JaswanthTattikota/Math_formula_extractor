@@ -1,10 +1,10 @@
 **Math Formula Extractor**
 
-#Overview
+**Overview
 
 The Math Formula Extractor is a web application developed using Streamlit that allows users to upload images containing mathematical formulas. The application utilizes the Gemini API to analyze the uploaded images, extract mathematical formulas, and display them in LaTeX format on an HTML canvas within the website.
 
-*Features*
+**Features**
 Website Development:
 
 Built using Streamlit for the frontend.
