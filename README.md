@@ -8,10 +8,14 @@ This app extracts mathematical formulas from images using the Gemini-Pro-Vision 
 -Extract formulas using AI and display them in both text and LaTeX format.
 -Download the extracted formulas as a LaTeX file for further use.
 
-Technologies Used
+Technologies Used:
+
 Streamlit
+
 google.generativeai
+
 Pillow (PIL)
+
 dotenv
 
 **Setup**
@@ -52,5 +56,5 @@ MIT License: https://choosealicense.com/licenses/mit/
 
 **Additional Notes**
 
-Requires a Google AI API key for the Gemini-Pro-Vision model.
-Use clear images with well-defined formulas for optimal performance.
+1. Requires a Google AI API key for the Gemini-Pro-Vision model.
+2. Use clear images with well-defined formulas for optimal performance.
