@@ -1,73 +1,56 @@
-**<b>Math Formula Extractor</b>**
+**Math Formula Extractor**
 
-The Math Formula Extractor is a web application developed using Streamlit that allows users to upload images containing mathematical formulas. The application utilizes the Gemini API to analyze the uploaded images, extract mathematical formulas, and display them in LaTeX format on an HTML canvas within the website.
+This app extracts mathematical formulas from images using the Gemini-Pro-Vision AI model and converts them into LaTeX code.
 
 **Features**
-Website Development:
 
-Built using Streamlit for the frontend.
-Responsive and user-friendly design.
+-Upload images containing mathematical formulas (JPEG, PNG, or JPG formats).
+-Extract formulas using AI and display them in both text and LaTeX format.
+-Download the extracted formulas as a LaTeX file for further use.
 
-Image Upload Feature:
+Technologies Used
+Streamlit
+google.generativeai
+Pillow (PIL)
+dotenv
 
-Users can upload images with mathematical formulas.
+**Setup**
 
-Formula Analysis:
-
-Utilizes the Gemini API to analyze uploaded images.
-Extracts mathematical formulas from the images.
-
-Displaying Formulas:
-
-Converts extracted formulas into LaTeX format.
-Displays formulas on an HTML canvas within the website.
-
-Testing and Validation:
-
-Handles different image formats and sizes.
-
-Download Option:
-
-Provides an option to download the converted LaTeX code.
-
-
-How to Use
-
-Clone the repository:
-
-bash
-Copy code
-git clone https://github.com/your-username/math-formula-extractor.git
-Install dependencies:
-
-bash
-Copy code
-pip install -r requirements.txt
-Set up environment variables:
+Clone this repository.
 
 Create a .env file and add your Gemini API key:
 
-makefile
-Copy code
-GEMINI_API_KEY=your-api-key
+GEMINI_API_KEY=YOUR_API_KEY_HERE
+
+Install the required libraries:
+
+```console
+pip install -r requirements.txt
+```
+
 Run the application:
 
-bash
-Copy code
+```console
 streamlit run app.py
-Visit http://localhost:8501 in your web browser to use the application.
+```
 
-Screenshots
-Include screenshots or GIFs demonstrating the usage of the application.
+Usage
 
-Dependencies
-Streamlit
-OpenAI Gemini API
-PIL (Pillow)
-dotenv
-License
-This project is licensed under the MIT License.
+1. Access the app in your web browser.
 
-Acknowledgments
-Streamlit
-OpenAI Gemini API
+2. Upload an image containing mathematical formulas.
+   
+3. The app will display the extracted formulas in text and LaTeX format.
+
+4. Click "Download LaTeX File" to download the formulas.
+
+
+**License**
+
+MIT License: https://choosealicense.com/licenses/mit/
+
+
+**Additional Notes**
+
+Requires a Google AI API key for the Gemini-Pro-Vision model.
+Use clear images with well-defined formulas for optimal performance.
