@@ -5,16 +5,18 @@ This app extracts mathematical formulas from images using the Gemini-Pro-Vision 
  ## **Features**
 
 -Upload images containing mathematical formulas (JPEG, PNG, or JPG formats).
+
 -Extract formulas using AI and display them in both text and LaTeX format.
+
 -Download the extracted formulas as a LaTeX file for further use.
 
 
 ## Technologies Used:
 
-1.Streamlit
-2.google.generativeai
-3.Pillow (PIL)
-4.dotenv
+1. Streamlit
+2. google.generativeai
+3. Pillow (PIL)
+4. dotenv
 
 
 ## **Setup**
