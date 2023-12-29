@@ -43,14 +43,11 @@ streamlit run app.py
 ```
 
 
-Usage
+**Usage:**
 
 1. Access the app in your web browser.
-
-2. Upload an image containing mathematical formulas.
-   
+2. Upload an image containing mathematical formulas. 
 3. The app will display the extracted formulas in text and LaTeX format.
-
 4. Click "Download LaTeX File" to download the formulas.
 
 
