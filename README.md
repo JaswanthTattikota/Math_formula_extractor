@@ -10,12 +10,9 @@ This app extracts mathematical formulas from images using the Gemini-Pro-Vision 
 
 Technologies Used:
 
-Streamlit
-
-google.generativeai
-
-Pillow (PIL)
-
+Streamlit\n
+google.generativeai\n
+Pillow (PIL)\n
 dotenv
 
 **Setup**
