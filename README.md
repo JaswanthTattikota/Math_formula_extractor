@@ -8,12 +8,17 @@ This app extracts mathematical formulas from images using the Gemini-Pro-Vision 
 -Extract formulas using AI and display them in both text and LaTeX format.
 -Download the extracted formulas as a LaTeX file for further use.
 
+
 Technologies Used:
 
-Streamlit\n
-google.generativeai\n
-Pillow (PIL)\n
+Streamlit
+
+google.generativeai
+
+Pillow (PIL)
+
 dotenv
+
 
 **Setup**
 
@@ -23,17 +28,20 @@ Create a .env file and add your Gemini API key:
 
 GEMINI_API_KEY=YOUR_API_KEY_HERE
 
+
 Install the required libraries:
 
 ```console
 pip install -r requirements.txt
 ```
 
+
 Run the application:
 
 ```console
 streamlit run app.py
 ```
+
 
 Usage
 
