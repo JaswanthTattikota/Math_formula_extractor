@@ -1,4 +1,4 @@
-**Math Formula Extractor**
+ # **Math Formula Extractor**
 
 This app extracts mathematical formulas from images using the Gemini-Pro-Vision AI model and converts them into LaTeX code.
 
