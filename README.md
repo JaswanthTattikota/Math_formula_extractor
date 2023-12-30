@@ -10,6 +10,7 @@ This app extracts mathematical formulae from images using the Gemini-Pro-Vision 
 
 -Download the extracted formulas as a LaTeX file for further use.
 
+Here is the demo of the website: https://math-formula-extractor-from-image.streamlit.app/
 
 ## Technologies Used:
 
