@@ -59,10 +59,12 @@ def main():
             st.write("--------------------------------------------------------------------------------------")
             st.write("The LaTeX format of the formulae is:")
             st.code(latex_code)
+            org_file_name,_ = os.path.splitext(uploaded_file.name)
+            new_file_name = f"{org_file_name}-latex.tex"
             st.download_button(
                 label="Download LaTeX File",
                 data=latex_code,
-                file_name="output_formula.tex",
+                file_name=new_file_name,
             )
         else:
             st.error("No formula found in the image!!")
