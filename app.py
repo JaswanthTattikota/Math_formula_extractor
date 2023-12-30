@@ -23,7 +23,7 @@ st.markdown(hide_style, unsafe_allow_html = True)
 
 def main():
     st.title("Math Formula Extractor")
-    st.markdown("Analyses the math formula present in an image and extracts it from the image.\nThis website uses Gemini-pro-vision model to analyze and extract the formulae from an image.")
+    st.markdown("Analyses the math formula present in an image and extracts it from the image.\nThis website uses Gemini-Pro-Vision model to analyze and extract the formulae from an image.")
     st.markdown("To use this website, please upload the image below (Image should be of type jpg/jpeg/png):")
 
     # Image upload section
