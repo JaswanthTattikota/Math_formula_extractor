@@ -11,6 +11,8 @@ The website is hosted in Streamlit Community Cloud.
 
 -Download the extracted formulae as a LaTeX file for further use.
 
+-This website uses the cutting-edge Google Gemini-Pro-Vision AI model to extract mathematical formulae from images with high accuracy.
+
 Here is the hosted website's link: https://math-formula-extractor-from-image.streamlit.app/
 
 ## Technologies Used:
