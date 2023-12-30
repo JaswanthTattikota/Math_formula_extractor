@@ -65,7 +65,7 @@ def main():
                 file_name="output_formula.tex",
             )
         else:
-            st.code("No formula found in the image!!")
+            st.error("No formula found in the image!!")
 
 if __name__ == "__main__":
     main()
