@@ -27,10 +27,16 @@ Clone this repository by using the command:
 git clone https://github.com/JaswanthTattikota/Math_formula_extractor.git
 ```
 
+After cloning the repository, change to the cloned repository's directory by using the following command:
+
+```console
+cd Math_formula_extractor
+```
+
 Create a .env file and add your Gemini API key:
 
 ```console
-GEMINI_API_KEY=YOUR_API_KEY_HERE
+GEMINI_API_KEY = YOUR_API_KEY_HERE
 ```
 
 Install the required libraries:
